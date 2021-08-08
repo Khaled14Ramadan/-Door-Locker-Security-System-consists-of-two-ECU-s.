@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project project ****
+
+**** Internal Builder is used for build               ****
+-avr-size --format=avr --mcu=atmega16 project.elf ..\project.elf
+Internal Builder: Cannot run program "-avr-size": Launching failed
+Build error occurred, build is stopped
+Time consumed: 77  ms.  

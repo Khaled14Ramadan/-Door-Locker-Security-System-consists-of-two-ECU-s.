@@ -1,0 +1,12 @@
+
+**** Build of configuration Debug for project new_project ****
+
+**** Internal Builder is used for build               ****
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -c -on_project.o ..\n_project.c
+In file included from ..\n_project.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+avr-gcc -Wl,-Map,new_project.map -mmcu=atmega16 -onew_project.elf n_project.o
+-avr-objdump -h -S new_project.elf ..\new_project.elf >new_project.lss
+Internal Builder: Cannot run program "-avr-objdump": Launching failed
+Build error occurred, build is stopped
+Time consumed: 633  ms.  
